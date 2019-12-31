@@ -8,7 +8,7 @@ Summary:	Server to test HTTP clients
 Summary(pl.UTF-8):	Serwer do testówania klientów HTTP
 Name:		python-test-server
 Version:	0.0.31
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/test-server/
@@ -100,7 +100,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG.md README.rst 
 %{py_sitescriptdir}/test_server
-%{py_sitescriptdir}/test-server-%{version}-py*.egg-info
+%{py_sitescriptdir}/test_server-%{version}-py*.egg-info
 %endif
 
 %if %{with python3}
@@ -108,5 +108,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG.md README.rst 
 %{py3_sitescriptdir}/test_server
-%{py3_sitescriptdir}/test-server-%{version}-py*.egg-info
+%{py3_sitescriptdir}/test_server-%{version}-py*.egg-info
 %endif
