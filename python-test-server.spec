@@ -8,7 +8,7 @@ Summary:	Server to test HTTP clients
 Summary(pl.UTF-8):	Serwer do testówania klientów HTTP
 Name:		python-test-server
 Version:	0.0.31
-Release:	5
+Release:	6
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/test-server/
