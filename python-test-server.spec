@@ -7,6 +7,7 @@
 Summary:	Server to test HTTP clients
 Summary(pl.UTF-8):	Serwer do testówania klientów HTTP
 Name:		python-test-server
+# keep 0.0.31 here for python2 support
 Version:	0.0.31
 Release:	7
 License:	MIT
